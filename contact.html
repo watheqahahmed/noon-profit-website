@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اتصل بنا - مبادرة شباب سبأ</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">تجاوز إلى المحتوى الرئيسي</a>
+
+    <header class="site-header" role="banner">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html" aria-label="مبادرة شباب سبأ - الصفحة الرئيسية">
+                    <img src="images/logo.png" alt="شعار مبادرة شباب سبأ">
+                </a>
+            </div>
+            <nav class="main-nav" aria-label="القائمة الرئيسية">
+                <button class="menu-toggle" aria-controls="primary-navigation" aria-expanded="false" aria-label="فتح القائمة الرئيسية">
+                    <span class="sr-only">تبديل التنقل</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <ul id="primary-navigation" class="nav-list">
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="about.html">من نحن</a></li>
+                    <li><a href="projects.html">المشاريع</a></li>
+                    <li><a href="blog.html">المدونة</a></li>
+                    <li><a href="contact.html" aria-current="page">اتصل بنا</a></li>
+                    <li><button id="theme-toggle" aria-label="تبديل الوضع الليلي/النهاري">
+                        <span class="sr-only">تبديل السمة</span>
+                        ☀️ / 🌙
+                    </button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content" role="main">
+        <section class="hero-section small-hero">
+            <div class="container hero-content fade-in-up">
+                <h1>اتصل بنا</h1>
+                <p>نحن هنا للإجابة على أسئلتك، استفساراتك، ومقترحاتك.</p>
+            </div>
+        </section>
+
+        <section class="contact-info-form section-padding">
+            <div class="container grid-2-columns">
+                <div class="contact-form-wrapper fade-in-up">
+                    <h2>أرسل لنا رسالة</h2>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">الاسم الكامل:</label>
+                            <input type="text" id="name" name="name" required aria-required="true" placeholder="أدخل اسمك الكامل">
+                            <div class="error-message" id="name-error" aria-live="polite"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">البريد الإلكتروني:</label>
+                            <input type="email" id="email" name="email" required aria-required="true" placeholder="أدخل بريدك الإلكتروني">
+                            <div class="error-message" id="email-error" aria-live="polite"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">الموضوع:</label>
+                            <input type="text" id="subject" name="subject" required aria-required="true" placeholder="موضوع رسالتك">
+                            <div class="error-message" id="subject-error" aria-live="polite"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">الرسالة:</label>
+                            <textarea id="message" name="message" rows="7" required aria-required="true" placeholder="اكتب رسالتك هنا..."></textarea>
+                            <div class="error-message" id="message-error" aria-live="polite"></div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">إرسال الرسالة</button>
+                    </form>
+                </div>
+
+                <div class="contact-details-map fade-in-up">
+                    <h2>تواصل معنا مباشرة</h2>
+                    <div class="contact-details">
+                        <p><i class="fas fa-map-marker-alt"></i> <address>123 شارع الشباب، حي الأمل، مدينة سبأ، اليمن</address></p>
+                        <p><i class="fas fa-phone"></i> الهاتف: <a href="tel:+1234567890">+1 234 567 890</a></p>
+                        <p><i class="fas fa-envelope"></i> البريد الإلكتروني: <a href="mailto:info@shebayouth.org">info@shebayouth.org</a></p>
+                    </div>
+
+                    <div class="social-media-contact">
+                        <h3>تابعنا على وسائل التواصل الاجتماعي</h3>
+                        <a href="#" class="social-icon" aria-label="فيسبوك"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon" aria-label="تويتر"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon" aria-label="إنستغرام"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon" aria-label="لينكدإن"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+
+                    <div class="google-map">
+                        <h3>موقعنا على الخريطة</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15440.065406000002!2d44.183495!3d13.568453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDM0JzA2LjQiTiA0NMKwMTEnMTAuNiJF!5e0!3m2!1sen!2s!4v1678888888888!5m2!1sen!2s" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" aria-label="موقع مبادرة شباب سبأ على الخريطة"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+        <div class="container footer-grid">
+            <div class="footer-about">
+                <h3>عن شباب سبأ</h3>
+                <p>تمكين الجيل القادم لمستقبل أكثر إشراقًا.</p>
+            </div>
+            <div class="footer-links">
+                <h3>روابط سريعة</h3>
+                <ul>
+                    <li><a href="about.html">مهمتنا</a></li>
+                    <li><a href="projects.html">تأثيرنا</a></li>
+                    <li><a href="donate.html">تبرع</a></li>
+                    <li><a href="privacy.html">سياسة الخصوصية</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h3>تواصل معنا</h3>
+                <a href="#" class="social-icon" aria-label="فيسبوك"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon" aria-label="تويتر"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon" aria-label="إنستغرام"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon" aria-label="لينكدإن"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="footer-contact">
+                <h3>اتصال</h3>
+                <p><address>123 شارع الشباب، المدينة، البلد</address></p>
+                <p>البريد الإلكتروني: <a href="mailto:info@shebayouth.org">info@shebayouth.org</a></p>
+                <p>الهاتف: <a href="tel:+1234567890">+1 234 567 890</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 مبادرة شباب سبأ. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/YOUR_FONT_AWESOME_KIT_ID.js" crossorigin="anonymous"></script>
+</body>
+</html>

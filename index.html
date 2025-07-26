@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مبادرة شباب سبأ - الصفحة الرئيسية</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">تجاوز إلى المحتوى الرئيسي</a>
+
+    <header class="site-header" role="banner">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html" aria-label="مبادرة شباب سبأ - الصفحة الرئيسية">
+                    <img src="images/sheba-logo.png" alt="شعار مبادرة شباب سبأ">
+                </a>
+            </div>
+            <nav class="main-nav" aria-label="القائمة الرئيسية">
+                <button class="menu-toggle" aria-controls="primary-navigation" aria-expanded="false" aria-label="فتح القائمة الرئيسية">
+                    <span class="sr-only">تبديل التنقل</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <ul id="primary-navigation" class="nav-list">
+                    <li><a href="index.html" aria-current="page">الرئيسية</a></li>
+                    <li><a href="about.html">من نحن</a></li>
+                    <li><a href="projects.html">المشاريع</a></li>
+                    <li><a href="blog.html">المدونة</a></li>
+                    <li><a href="contact.html">اتصل بنا</a></li>
+                    <li>
+                        <button id="theme-toggle" aria-label="تبديل الوضع الليلي/النهاري">
+                            <span class="sr-only">تبديل السمة</span>
+                            ☀️ / 🌙
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content" role="main">
+        <section class="hero-section">
+            <div class="container hero-content fade-in-up">
+                <h1>تمكين الشباب لمستقبل أكثر إشراقًا</h1>
+                <p>نعمل على بناء قادة المستقبل من خلال التعليم، التنمية، والمشاركة المجتمعية.</p>
+                <div class="hero-actions">
+                    <a href="donate.html" class="btn btn-primary">تبرع الآن</a>
+                    <a href="about.html" class="btn btn-secondary">تعلم المزيد</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-intro section-padding">
+            <div class="container">
+                <h2 class="fade-in-up">من نحن</h2>
+                <div class="grid-2-columns">
+                    <div class="text-content fade-in-up">
+                        <p>مبادرة شباب سبأ هي منظمة غير ربحية مكرسة لتمكين الشباب في اليمن من خلال برامج تعليمية وتنموية مبتكرة. نؤمن بأن الشباب هم مفتاح التغيير الإيجابي.</p>
+                        <p>منذ تأسيسنا، عملنا بلا كلل لتوفير الفرص التي تساعد الشباب على اكتشاف إمكاناتهم الكاملة، وتزويدهم بالمهارات والمعرفة اللازمة لتحقيق النجاح.</p>
+                        <a href="about.html" class="link-more">اقرأ المزيد عن مهمتنا &raquo;</a>
+                    </div>
+                    <div class="image-content fade-in-up">
+                        <img src="images/youth-group.jpg" alt="مجموعة شباب يدرسون">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-projects section-padding bg-light">
+            <div class="container">
+                <h2 class="text-center fade-in-up">مشاريعنا المميزة</h2>
+                <div class="project-grid fade-in-up">
+                    <article class="project-card" data-category="education">
+                        <img src="images/project-edu.jpg" alt="مشروع التعليم">
+                        <h3>برنامج التعليم الرقمي</h3>
+                        <p>نقدم ورش عمل وموارد تعليمية رقمية لتعزيز مهارات الشباب التقنية.</p>
+                        <a href="projects.html#edu" class="link-more">تفاصيل المشروع</a>
+                    </article>
+                    <article class="project-card" data-category="health">
+                        <img src="images/project-health.jpg" alt="مشروع الصحة">
+                        <h3>حملات التوعية الصحية</h3>
+                        <p>ننظم حملات توعية صحية في المجتمعات المحلية لرفع مستوى الوعي.</p>
+                        <a href="projects.html#health" class="link-more">تفاصيل المشروع</a>
+                    </article>
+                    <article class="project-card" data-category="community">
+                        <img src="images/project-community.jpg" alt="مشروع المجتمع">
+                        <h3>مبادرات التنمية المجتمعية</h3>
+                        <p>ندعم المشاريع التي يقودها الشباب لتحسين بيئتهم ومجتمعاتهم.</p>
+                        <a href="projects.html#community" class="link-more">تفاصيل المشروع</a>
+                    </article>
+                </div>
+                <div class="text-center mt-xl">
+                    <a href="projects.html" class="btn btn-primary">شاهد جميع مشاريعنا</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+        <div class="container footer-grid">
+            <div class="footer-about">
+                <h3>عن شباب سبأ</h3>
+                <p>تمكين الجيل القادم لمستقبل أكثر إشراقًا.</p>
+            </div>
+            <div class="footer-links">
+                <h3>روابط سريعة</h3>
+                <ul>
+                    <li><a href="about.html">مهمتنا</a></li>
+                    <li><a href="projects.html">تأثيرنا</a></li>
+                    <li><a href="donate.html">تبرع</a></li>
+                    <li><a href="privacy.html">سياسة الخصوصية</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h3>تواصل معنا</h3>
+                <a href="#" class="social-icon" aria-label="فيسبوك"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon" aria-label="تويتر"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon" aria-label="إنستغرام"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon" aria-label="لينكدإن"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="footer-contact">
+                <h3>اتصال</h3>
+                <p><address>123 شارع الشباب، المدينة، البلد</address></p>
+                <p>البريد الإلكتروني: <a href="mailto:info@shebayouth.org">info@shebayouth.org</a></p>
+                <p>الهاتف: <a href="tel:+1234567890">+1 234 567 890</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 مبادرة شباب سبأ. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/YOUR_FONT_AWESOME_KIT_ID.js" crossorigin="anonymous"></script>
+</body>
+</html>

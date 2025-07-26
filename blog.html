@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المدونة - مبادرة شباب سبأ</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">تجاوز إلى المحتوى الرئيسي</a>
+
+    <header class="site-header" role="banner">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html" aria-label="مبادرة شباب سبأ - الصفحة الرئيسية">
+                    <img src="images/logo.png" alt="شعار مبادرة شباب سبأ">
+                </a>
+            </div>
+            <nav class="main-nav" aria-label="القائمة الرئيسية">
+                <button class="menu-toggle" aria-controls="primary-navigation" aria-expanded="false" aria-label="فتح القائمة الرئيسية">
+                    <span class="sr-only">تبديل التنقل</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <ul id="primary-navigation" class="nav-list">
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="about.html">من نحن</a></li>
+                    <li><a href="projects.html">المشاريع</a></li>
+                    <li><a href="blog.html" aria-current="page">المدونة</a></li>
+                    <li><a href="contact.html">اتصل بنا</a></li>
+                    <li><button id="theme-toggle" aria-label="تبديل الوضع الليلي/النهاري">
+                        <span class="sr-only">تبديل السمة</span>
+                        ☀️ / 🌙
+                    </button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content" role="main">
+        <section class="hero-section small-hero">
+            <div class="container hero-content fade-in-up">
+                <h1>مدونتنا وأخبارنا</h1>
+                <p>آخر التحديثات، قصص النجاح، ومقالات عن عملنا وتأثيرنا.</p>
+            </div>
+        </section>
+
+        <section class="blog-posts section-padding">
+            <div class="container">
+                <h2 class="text-center fade-in-up">آخر المقالات</h2>
+                <div class="blog-grid mt-xl">
+                    <article class="blog-post-card fade-in-up">
+                        <img src="images/blog-post-1.jpg" alt="صورة مقال عن التعليم">
+                        <div class="post-content">
+                            <h3>أثر التعليم الرقمي على مستقبل الشباب</h3>
+                            <p class="post-meta">نشر في: <time datetime="2025-07-20">20 يوليو 2025</time></p>
+                            <p>نستعرض في هذا المقال كيف يغير التعليم الرقمي قواعد اللعبة للشباب في المناطق النائية...</p>
+                            <a href="blog-post-1.html" class="link-more">اقرأ المزيد</a>
+                        </div>
+                    </article>
+
+                    <article class="blog-post-card fade-in-up">
+                        <img src="images/blog-post-2.jpg" alt="صورة مقال عن الصحة">
+                        <div class="post-content">
+                            <h3>حملات التوعية الصحية: قصص نجاح من الميدان</h3>
+                            <p class="post-meta">نشر في: <time datetime="2025-07-15">15 يوليو 2025</time></p>
+                            <p>نلقي الضوء على قصص ملهمة من حملاتنا الصحية التي غيرت حياة الكثيرين...</p>
+                            <a href="blog-post-2.html" class="link-more">اقرأ المزيد</a>
+                        </div>
+                    </article>
+
+                    <article class="blog-post-card fade-in-up">
+                        <img src="images/blog-post-3.jpg" alt="صورة مقال عن التطوع">
+                        <div class="post-content">
+                            <h3>قوة التطوع: كيف يساهم الشباب في بناء مجتمعاتهم</h3>
+                            <p class="post-meta">نشر في: <time datetime="2025-07-10">10 يوليو 2025</time></p>
+                            <p>مقابلة مع مجموعة من المتطوعين الشباب حول تجربتهم وأثرها على مجتمعاتهم...</p>
+                            <a href="blog-post-3.html" class="link-more">اقرأ المزيد</a>
+                        </div>
+                    </article>
+
+                    <article class="blog-post-card fade-in-up">
+                        <img src="images/blog-post-4.jpg" alt="صورة مقال عن التنمية">
+                        <div class="post-content">
+                            <h3>مبادرات التنمية المستدامة: نظرة على مشاريعنا البيئية</h3>
+                            <p class="post-meta">نشر في: <time datetime="2025-07-05">05 يوليو 2025</time></p>
+                            <p>نستعرض جهودنا في مجال التنمية البيئية وكيف يشارك الشباب في الحفاظ على الموارد...</p>
+                            <a href="blog-post-4.html" class="link-more">اقرأ المزيد</a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="pagination text-center mt-xl">
+                    <a href="#" class="btn btn-secondary">السابق</a>
+                    <a href="#" class="btn btn-primary">1</a>
+                    <a href="#" class="btn btn-secondary">2</a>
+                    <a href="#" class="btn btn-secondary">3</a>
+                    <a href="#" class="btn btn-secondary">التالي</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+        <div class="container footer-grid">
+            <div class="footer-about">
+                <h3>عن شباب سبأ</h3>
+                <p>تمكين الجيل القادم لمستقبل أكثر إشراقًا.</p>
+            </div>
+            <div class="footer-links">
+                <h3>روابط سريعة</h3>
+                <ul>
+                    <li><a href="about.html">مهمتنا</a></li>
+                    <li><a href="projects.html">تأثيرنا</a></li>
+                    <li><a href="donate.html">تبرع</a></li>
+                    <li><a href="privacy.html">سياسة الخصوصية</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h3>تواصل معنا</h3>
+                <a href="#" class="social-icon" aria-label="فيسبوك"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon" aria-label="تويتر"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon" aria-label="إنستغرام"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon" aria-label="لينكدإن"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="footer-contact">
+                <h3>اتصال</h3>
+                <p><address>123 شارع الشباب، المدينة، البلد</address></p>
+                <p>البريد الإلكتروني: <a href="mailto:info@shebayouth.org">info@shebayouth.org</a></p>
+                <p>الهاتف: <a href="tel:+1234567890">+1 234 567 890</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 مبادرة شباب سبأ. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/YOUR_FONT_AWESOME_KIT_ID.js" crossorigin="anonymous"></script>
+</body>
+</html>
